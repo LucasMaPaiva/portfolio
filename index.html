@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%233b82f6;stop-opacity:1' /><stop offset='100%25' style='stop-color:%232563eb;stop-opacity:1' /></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)' /><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold' font-size='16'>&lt;/&gt;</text></svg>">
+        href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgNSA0MCA0MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iaWNvbkdyYWRGYXYiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNGE2Y2Y3IiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyYjQ1Y2MiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIwIiB5PSI1IiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIxMCIgZmlsbD0idXJsKCNpY29uR3JhZEZhdikiIC8+CiAgPHBhdGggZD0iTSAxMyAxOCBMIDcgMjUgTCAxMyAzMiBNIDI3IDE4IEwgMzMgMjUgTCAyNyAzMiBNIDE4IDM0IEwgMjIgMTYiIAogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K">
     <script>
         tailwind.config = {
             theme: {
@@ -66,10 +66,17 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex-shrink-0 flex items-center gap-2">
-                    <div
-                        class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-500 to-indigo-600 flex items-center justify-center text-white font-bold text-xl">
-                        &lt;/&gt;
-                    </div>
+                    <svg class="w-8 h-8" viewBox="0 5 40 40">
+                        <defs>
+                            <linearGradient id="iconGradNav" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#4a6cf7" />
+                                <stop offset="100%" stop-color="#2b45cc" />
+                            </linearGradient>
+                        </defs>
+                        <rect x="0" y="5" width="40" height="40" rx="10" fill="url(#iconGradNav)" />
+                        <path d="M 13 18 L 7 25 L 13 32 M 27 18 L 33 25 L 27 32 M 18 34 L 22 16" fill="none"
+                            stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
                     <span class="font-bold text-xl tracking-tight text-slate-900">Lucas Paiva<span
                             class="text-brand-500">.</span></span>
                 </div>
