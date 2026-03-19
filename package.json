@@ -1,0 +1,12 @@
+{
+  "name": "lucas-paiva-portfolio",
+  "version": "1.0.0",
+  "description": "Portfólio de Lucas Paiva - Desenvolvedor Web Freelancer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "Lucas Paiva",
+  "license": "ISC"
+}
