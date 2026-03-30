@@ -1,0 +1,70 @@
+const diferenciais = [
+  {
+    icon: 'rocket_launch',
+    title: 'Production-First',
+    description: 'Sistemas pensados desde o dia 1 para rodar em produção sob carga real, sem surpresas no deploy.',
+  },
+  {
+    icon: 'terminal',
+    title: 'Infra as Code',
+    description: 'Ambientes isolados e replicáveis com Docker, eliminando o clássico "na minha máquina funciona".',
+  },
+  {
+    icon: 'auto_fix_high',
+    title: 'Clean Code & PSR',
+    description: 'Seguindo os mais altos padrões de PSR e design patterns para um legado saudável.',
+  },
+];
+
+export default function Diferenciais() {
+  return (
+    <section className="py-32 px-8 md:px-24 bg-surface">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        {/* Left — List */}
+        <div>
+          <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight">
+            O Diferencial de quem <span className="text-primary">entrega</span>.
+          </h2>
+          <p className="text-on-surface-variant text-lg mb-12">
+            Não apenas linhas de código, mas ativos digitais pensados para o negócio.
+          </p>
+          <div className="space-y-8">
+            {diferenciais.map((item) => (
+              <div key={item.title} className="flex gap-6">
+                <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center flex-shrink-0">
+                  <span className="material-symbols-outlined text-primary">{item.icon}</span>
+                </div>
+                <div>
+                  <h4 className="font-bold text-xl mb-1">{item.title}</h4>
+                  <p className="text-on-surface-variant">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Right — Quote Card */}
+        <div className="bg-surface-container-low p-12 rounded-xl relative overflow-hidden flex flex-col justify-center">
+          <div className="z-10">
+            <span
+              className="text-primary material-symbols-outlined text-6xl mb-6 block"
+              style={{ fontVariationSettings: "'FILL' 1" }}
+            >
+              verified
+            </span>
+            <h3 className="text-3xl font-bold mb-4 italic">
+              "Código que não escala é apenas um protótipo caro."
+            </h3>
+            <p className="text-on-surface-variant leading-relaxed">
+              Priorizo arquiteturas que permitem ao seu negócio crescer sem precisar reescrever toda a base de tecnologia a cada 6 meses.
+            </p>
+          </div>
+          {/* Background Pattern */}
+          <div className="absolute -bottom-10 -right-10 opacity-5">
+            <span className="material-symbols-outlined text-[15rem]">architecture</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build local (não precisa no Docker, ele faz o build internamente)
+dist/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+
+# Logs e temporários
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

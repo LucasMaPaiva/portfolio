@@ -1,0 +1,14 @@
+# Overlay de produção — use em conjunto com docker-compose.yml:
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  portfolio:
+    # Remove exposição direta de porta — o Nginx Proxy Manager cuida do ingress
+    ports: !reset []
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NETWORK_NAME:-npm_default}
