@@ -1,9 +1,10 @@
 export default function Contact() {
   return (
     <section
-      className="py-32 px-8 md:px-24 bg-surface-container-lowest border-t border-outline-variant/15"
+      className="py-32 bg-surface-container-lowest border-t border-outline-variant/15"
       id="contact"
     >
+      <div className="max-w-7xl mx-auto px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-headline font-black text-5xl md:text-7xl mb-8 tracking-tighter">
           Vamos construir algo <span className="text-primary">sólido?</span>
@@ -50,6 +51,7 @@ export default function Contact() {
             <span className="material-symbols-outlined">share</span>
           </a>
         </div>
+      </div>
       </div>
     </section>
   );

@@ -1,7 +1,8 @@
 export default function About() {
   return (
-    <section className="py-32 px-8 md:px-24 bg-surface-container-low" id="about">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+    <section className="py-32 bg-surface-container-low" id="about">
+      <div className="max-w-7xl mx-auto px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         {/* Image Column */}
         <div className="relative">
           <div className="aspect-square bg-surface-container-high rounded-xl overflow-hidden relative group">
@@ -37,6 +38,7 @@ export default function About() {
               <span className="text-on-surface font-semibold underline decoration-primary/40">Docker</span> e infraestrutura moderna em Linux para garantir que o deploy seja tão confiável quanto a lógica de negócio.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </section>

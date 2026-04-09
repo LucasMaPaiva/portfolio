@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <header className="relative min-h-screen flex items-center pt-24 px-8 md:px-24 overflow-hidden">
-      <div className="max-w-5xl z-10">
+    <header className="relative min-h-screen flex items-center pt-24 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-8 w-full z-10">
         <h1 className="font-headline font-black text-6xl md:text-8xl leading-none tracking-tighter mb-8 text-on-surface">
           Desenvolvedor{' '}
           <span className="text-primary text-glow-primary">Full Stack</span>{' '}

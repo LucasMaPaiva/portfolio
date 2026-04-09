@@ -18,7 +18,8 @@ const diferenciais = [
 
 export default function Diferenciais() {
   return (
-    <section className="py-32 px-8 md:px-24 bg-surface">
+    <section className="py-32 bg-surface">
+      <div className="max-w-7xl mx-auto px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         {/* Left — List */}
         <div>
@@ -64,6 +65,7 @@ export default function Diferenciais() {
             <span className="material-symbols-outlined text-[15rem]">architecture</span>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

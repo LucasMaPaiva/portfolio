@@ -1,6 +1,7 @@
 export default function Projects() {
   return (
-    <section className="py-32 px-8 md:px-24 bg-surface-container-low" id="projects">
+    <section className="py-32 bg-surface-container-low" id="projects">
+      <div className="max-w-7xl mx-auto px-8">
       <h2 className="font-headline font-bold text-4xl md:text-5xl mb-16 tracking-tight text-center md:text-left">
         Casos de Sucesso
       </h2>
@@ -50,6 +51,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
