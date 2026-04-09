@@ -1,3 +1,4 @@
+const diferenciais = [
   {
     icon: 'verified_user',
     title: 'Foco em Produção',
@@ -18,6 +19,7 @@
     title: 'Pragmatismo Técnico',
     description: 'Escolhas tecnológicas guiadas por performance real e manutenção sustentável no longo prazo.',
   },
+];
 
 export default function Diferenciais() {
   return (
