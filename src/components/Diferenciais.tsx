@@ -1,20 +1,23 @@
-const diferenciais = [
   {
-    icon: 'rocket_launch',
-    title: 'Production-First',
-    description: 'Sistemas pensados desde o dia 1 para rodar em produção sob carga real, sem surpresas no deploy.',
+    icon: 'verified_user',
+    title: 'Foco em Produção',
+    description: 'Sistemas arquitetados para resiliência e alta carga, com monitoramento e deploys previsíveis.',
   },
   {
     icon: 'terminal',
-    title: 'Infra as Code',
-    description: 'Ambientes isolados e replicáveis com Docker, eliminando o clássico "na minha máquina funciona".',
+    title: 'Infraestrutura Própria',
+    description: 'Domínio de Docker, Nginx e Linux para garantir autonomia completa sobre o ambiente de execução.',
   },
   {
-    icon: 'auto_fix_high',
-    title: 'Clean Code & PSR',
-    description: 'Seguindo os mais altos padrões de PSR e design patterns para um legado saudável.',
+    icon: 'architecture',
+    title: 'Engenharia de Dados',
+    description: 'Modelagem avançada em PostgreSQL e APIs robustas seguindo padrões internacionais de arquitetura.',
   },
-];
+  {
+    icon: 'analytics',
+    title: 'Pragmatismo Técnico',
+    description: 'Escolhas tecnológicas guiadas por performance real e manutenção sustentável no longo prazo.',
+  },
 
 export default function Diferenciais() {
   return (
@@ -54,10 +57,10 @@ export default function Diferenciais() {
               verified
             </span>
             <h3 className="text-3xl font-bold mb-4 italic">
-              "Código que não escala é apenas um protótipo caro."
+              "Maturidade técnica é garantir que o sistema não falhe quando o usuário mais precisa."
             </h3>
             <p className="text-on-surface-variant leading-relaxed">
-              Priorizo arquiteturas que permitem ao seu negócio crescer sem precisar reescrever toda a base de tecnologia a cada 6 meses.
+              Priorizo arquiteturas que permitem ao seu negócio crescer sem precisar reescrever toda a base tecnológica a cada ciclo de expansão.
             </p>
           </div>
           {/* Background Pattern */}

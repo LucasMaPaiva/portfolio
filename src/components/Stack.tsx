@@ -1,12 +1,12 @@
 const stackItems = [
-  { icon: 'php', name: 'PHP', label: 'Backend Engine' },
-  { icon: 'api', name: 'Laravel', label: 'Fullstack Framework' },
-  { icon: 'database', name: 'PostgreSQL', label: 'Data Persistence' },
-  { icon: 'terminal', name: 'Docker', label: 'Containerization' },
-  { icon: 'dns', name: 'Nginx', label: 'Web Server' },
-  { icon: 'cloud_sync', name: 'APIs REST', label: 'Communication' },
-  { icon: 'account_tree', name: 'Git', label: 'Version Control' },
-  { icon: 'settings_ethernet', name: 'VPS/Linux', label: 'Infrastructure' },
+  { icon: 'php', name: 'PHP', label: 'Robust Backend' },
+  { icon: 'api', name: 'Laravel', label: 'Enterprise Framework' },
+  { icon: 'database', name: 'PostgreSQL', label: 'Relational Architecture' },
+  { icon: 'terminal', name: 'Docker', label: 'Deployment Consistency' },
+  { icon: 'dns', name: 'Nginx', label: 'High-Performance Proxy' },
+  { icon: 'cloud_sync', name: 'APIs REST', label: 'System Integration' },
+  { icon: 'account_tree', name: 'Git', label: 'Source Control' },
+  { icon: 'settings_ethernet', name: 'VPS/Linux', label: 'Bare Metal Infra' },
 ];
 
 export default function Stack() {
@@ -15,10 +15,10 @@ export default function Stack() {
       <div className="max-w-7xl mx-auto px-8">
       <div className="mb-20 text-center max-w-3xl mx-auto">
         <h2 className="font-headline font-bold text-4xl md:text-5xl mb-6 tracking-tight">
-          The Modern Stack
+          Tecnologias de Produção
         </h2>
         <p className="text-on-surface-variant text-lg">
-          Ferramentas selecionadas para construir software de alta performance e manutenção sustentável.
+          Ferramentas selecionadas com base em critérios rigorosos de performance, escalabilidade e maturidade de ecossistema.
         </p>
       </div>
 

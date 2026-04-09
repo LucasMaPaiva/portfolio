@@ -14,7 +14,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-60" />
           </div>
           <div className="absolute -bottom-8 -right-8 bg-primary p-8 rounded-lg shadow-2xl hidden md:block">
-            <p className="text-on-primary font-black text-4xl tracking-tighter">8+ ANOS</p>
+            <p className="text-on-primary font-black text-4xl tracking-tighter">4 ANOS</p>
             <p className="text-on-primary font-bold text-sm uppercase tracking-widest">Experiência Real</p>
           </div>
         </div>
@@ -26,16 +26,16 @@ export default function About() {
           </h2>
           <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
             <p>
-              Minha abordagem ao desenvolvimento Full Stack é centrada no pragmatismo. Foco em construir soluções que não apenas funcionam, mas prosperam em ambientes de produção complexos.
+              Minha abordagem ao desenvolvimento é guiada pelo pragmatismo e rigor técnico. Não projeto apenas sistemas que funcionam; modelo arquiteturas que prosperam sob carga real em ambientes de produção.
             </p>
             <p>
               Com domínio profundo do ecossistema{' '}
-              <span className="text-on-surface font-semibold underline decoration-primary/40">PHP/Laravel</span>, projeto APIs robustas e arquiteturas de banco de dados otimizadas utilizando{' '}
+              <span className="text-on-surface font-semibold underline decoration-primary/40">PHP/Laravel</span>, projeto APIs RESTful escaláveis e estruturas de dados otimizadas em{' '}
               <span className="text-on-surface font-semibold underline decoration-primary/40">PostgreSQL</span>.
             </p>
             <p>
-              Acredito que o código só é completo quando está devidamente provisionado. Por isso, integro fluxos de{' '}
-              <span className="text-on-surface font-semibold underline decoration-primary/40">Docker</span> e infraestrutura moderna em Linux para garantir que o deploy seja tão confiável quanto a lógica de negócio.
+              Entendo que o software só é completo quando está devidamente provisionado. Por isso, utilizo{' '}
+              <span className="text-on-surface font-semibold underline decoration-primary/40">Docker</span> e infraestrutura Linux para garantir que o deploy seja previsível e o ambiente, resiliente. Atualmente, foco em levar a inteligência artificial para o nível prático da engenharia de software.
             </p>
           </div>
         </div>
