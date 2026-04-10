@@ -25,7 +25,7 @@ export default function Diferenciais() {
   return (
     <section className="py-32 bg-surface">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
         {/* Left — List */}
         <div>
           <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight text-balance hyphens-auto">
@@ -50,7 +50,7 @@ export default function Diferenciais() {
         </div>
 
         {/* Right — Quote Card */}
-        <div className="bg-surface-container-low p-12 rounded-xl relative overflow-hidden flex flex-col justify-center">
+        <div className="bg-surface-container-low p-6 sm:p-12 rounded-xl relative overflow-hidden flex flex-col justify-center">
           <div className="z-10">
             <span
               className="text-primary material-symbols-outlined text-6xl mb-6 block"
