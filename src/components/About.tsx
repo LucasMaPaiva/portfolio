@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="py-32 bg-surface-container-low" id="about">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         {/* Image Column */}
         <div className="relative">
@@ -21,7 +21,7 @@ export default function About() {
 
         {/* Text Column */}
         <div>
-          <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight text-on-surface">
+          <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight text-on-surface text-balance hyphens-auto">
             Arquitetura que <span className="text-primary">escala</span>.
           </h2>
           <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">

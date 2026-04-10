@@ -24,11 +24,11 @@ const diferenciais = [
 export default function Diferenciais() {
   return (
     <section className="py-32 bg-surface">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
         {/* Left — List */}
         <div>
-          <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight">
+          <h2 className="font-headline font-bold text-4xl md:text-5xl mb-8 tracking-tight text-balance hyphens-auto">
             O Diferencial de quem <span className="text-primary">entrega</span>.
           </h2>
           <p className="text-on-surface-variant text-lg mb-12">

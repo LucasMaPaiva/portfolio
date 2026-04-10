@@ -12,9 +12,9 @@ const stackItems = [
 export default function Stack() {
   return (
     <section className="py-32 bg-surface" id="stack">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
       <div className="mb-20 text-center max-w-3xl mx-auto">
-        <h2 className="font-headline font-bold text-4xl md:text-5xl mb-6 tracking-tight">
+        <h2 className="font-headline font-bold text-4xl md:text-5xl mb-6 tracking-tight text-balance hyphens-auto">
           Tecnologias de Produção
         </h2>
         <p className="text-on-surface-variant text-lg">

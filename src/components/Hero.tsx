@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
     <header className="relative min-h-screen flex items-center pt-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-8 w-full z-10">
-        <h1 className="font-headline font-black text-6xl md:text-8xl leading-none tracking-tighter mb-8 text-on-surface">
-          Desenvolvedor <span className="text-primary text-glow-primary">Fullstack</span> focada em sistemas de alta disponibilidade.
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 w-full z-10">
+        <h1 className="font-headline font-black text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-tighter mb-8 text-on-surface break-words text-balance hyphens-auto">
+          Desenvolvedor <span className="text-primary text-glow-primary">Fullstack</span> focado em sistemas de alta disponibilidade.
         </h1>
         <p className="font-body text-xl md:text-2xl text-on-surface-variant max-w-3xl mb-12 leading-relaxed">
           Especialista em PHP/Laravel e infraestrutura, transformando regras de negócio complexas em software resiliente pronto para produção.

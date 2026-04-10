@@ -1,8 +1,8 @@
 export default function Projects() {
   return (
     <section className="py-32 bg-surface-container-low" id="projects">
-      <div className="max-w-7xl mx-auto px-8">
-      <h2 className="font-headline font-bold text-4xl md:text-5xl mb-16 tracking-tight text-center md:text-left">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+      <h2 className="font-headline font-bold text-4xl md:text-5xl mb-16 tracking-tight text-center md:text-left text-balance hyphens-auto">
         Casos de Sucesso
       </h2>
 
@@ -16,7 +16,7 @@ export default function Projects() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/40 to-transparent p-12 flex flex-col justify-end">
             <span className="text-primary font-bold tracking-widest text-xs uppercase mb-4">Case Principal</span>
-            <h3 className="text-4xl font-bold mb-4">H7 Escalas</h3>
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">H7 Escalas</h3>
             <p className="text-on-surface-variant text-lg max-w-xl mb-6">
               Sistema robusto de gestão de escalas operacionais. A plataforma automatiza logs e coordenação de times em tempo real, integrando regras complexas via Laravel em infraestrutura Docker.
             </p>

@@ -4,9 +4,9 @@ export default function Contact() {
       className="py-32 bg-surface-container-lowest border-t border-outline-variant/15"
       id="contact"
     >
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="font-headline font-black text-5xl md:text-7xl mb-8 tracking-tighter">
+        <h2 className="font-headline font-black text-5xl md:text-7xl mb-8 tracking-tighter text-balance hyphens-auto">
           Pronto para <span className="text-primary">escalar?</span>
         </h2>
         <p className="text-2xl text-on-surface-variant mb-12">

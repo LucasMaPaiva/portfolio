@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#1C1B1B]/70 backdrop-blur-md">
-      <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-6 flex justify-between items-center">
         <div className="text-xl font-black tracking-tighter text-[#E5E2E1]">Lucas Matheus</div>
         <div className="hidden md:flex items-center gap-8">
           <a
